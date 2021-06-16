@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css" type="text/css">
+    <title>Romance</title>
+</head>
+<body>
+    <main style="height: 1000px">
+        <section>
+            <header class="topo">
+                <a href="../html/index.html"> <img src="../image/logoNew.PNG" width="200px"> </a>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="../html/index.html"> Home </a></li>
+                        <li><a href="../html/categoria.html"> Categoria </a>
+                            <ul>
+                                <li><a href="../html/terror.html">Terror</a></li>
+                                <li><a href="../html/romance.html">Romance</a></li>
+                                <li><a href="../html/anime.html">Anime</a></li>
+                                <li><a href="../html/serie.html">Serie</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                          <table>
+                              <tr>
+                                  <td><img src="../image/people1.png" width="25px"> </td>
+                                  <td><a href="../html/login.html"> Login</a></td>
+                              </tr>
+                          </table>
+                      </li>
+                    </ul>
+                </nav>
+            </header>
+
+        </section>
+
+        <section style="margin-top: 10%;">
+          <div class="container">
+              <a class="links" id="paracadastro"></a>
+              <a class="links" id="paralogin"></a>
+                 
+                <div class="content">      
+                  <!--LOGIN-->
+                  <div id="login">
+                    <form method="post" action="index.html"> 
+                      <h1>Login</h1> 
+                      <p> 
+                        <label for="nome_login">Seu nome</label>
+                        <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+                      </p>
+                       
+                      <p> 
+                        <label for="senha_login">Sua senha</label>
+                        <input id="senha_login" name="senha_login" required="required" type="password" placeholder="ex. senha" /> 
+                      </p>
+                       
+                      <p> 
+                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+                        <label for="manterlogado">Manter-me logado</label>
+                      </p>
+                       
+                      <p> 
+                        <input type="submit" value="Logar"/> 
+                      </p>
+                       
+                      <p class="link">
+                        Ainda não tem conta?
+                        <a href="#paracadastro">Cadastre-se</a>
+                      </p>
+                    </form>
+                  </div>
+             
+                  <!--CADASTRO-->
+                  <div id="cadastro">
+                    <form method="post" action="index.html"> 
+                      <h1>Cadastro</h1> 
+                       
+                      <p> 
+                        <label for="nome_cad">Seu nome</label>
+                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+                      </p>
+                       
+                      <p> 
+                        <label for="email_cad">Seu e-mail</label>
+                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+                      </p>
+                       
+                      <p> 
+                        <label for="senha_cad">Sua senha</label>
+                        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+                      </p>
+                       
+                      <p> 
+                        <input type="submit" value="Cadastrar"/> 
+                      </p>
+                       
+                      <p class="link">  
+                        Já tem conta?
+                        <a href="#paralogin"> Ir para Login </a>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+          <aside>
+            <article>
+              <figcaption>
+                <img src="../image/soulcode.png" width="10%">
+              </figcaption>
+            </article>
+          </aside>
+        </section>
+
+        <section class="rodapePai">
+          <footer>
+              <div class="roda"> Christina Fernandes </div>
+              <div class="pe">
+                  <a href="https://www.facebook.com/SoulCodeAcademy"><img src="../image/facebookIcon.png" width="3%"></a>
+                  <a href="https://www.instagram.com/soulcodeacademy"><img src="../image/instaIcon.png" width="3%"></a>
+                  <a href="https://www.linkedin.com/company/soulcodeacademy/"><img src="../image/linkedinIcon.png" width="3%"></a>
+              </div>
+          </footer>
+      </section>
+
+  </main>
+
+</body>
+
+</html>

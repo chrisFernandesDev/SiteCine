@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+}
+
+.test{
+    width: 300px auto;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)), url(../image/finalLogo3.gif);
+    border: #fff0 1px solid;
+}
+
+footer{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    /*color: palevioletred;*/
+}
+
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topo{
+    /*opacity: 0.8;*/
+    /*border: violet solid 5px;*/
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: arial; /*trocar aqui Meow*/
+}
+
+ul li ul{
+    display: none;
+}
+
+.topo ul li:hover ul{
+    display: block;
+    margin-top: 18px;
+    position: absolute;
+}
+
+.menu{
+    display: flex;
+    z-index: 1;
+}
+
+.menu li{
+    position: relative;
+    float:left;
+    margin-left: 15px;
+}
+
+.menu li a{
+    transition: 1s;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    /*border: blue solid 1px;*/
+}
+
+.menu li a:hover{
+    transition: 1s;
+    box-shadow: 0 1px 5px 5px;
+    zoom: 100%;
+    border-radius: 50px;
+   /* transition: 1s;*/
+    background-color: red;
+    color:white;
+    /*border-radius: 10px;*/
+}
+
+.menu li ul{
+    background-color: red;
+    position:absolute;
+    top:25px;
+    left:0;
+    }
+
+.button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: red;
+}
+
+.inv{
+    color: rgb(207, 87, 207);
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+}
+
+h1{
+    margin-left: 30px;
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 0px;
+}
+
+.test1{
+    max-width: 450px;
+    min-width: 450px;
+    height: 185px;
+    margin-top: 350px;
+    margin-right: 30%;
+    margin-left: 55px;
+    border-left: red 5px solid;
+    padding-left: 10px;
+
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+.invisivel{
+    color: white;
+    position: absolute;
+    margin-top: -195px;
+    left: 400px;
+    display: none;
+    font-weight: bold;
+    margin-left: 10px;
+    /*text-shadow: -2px 2px 2px rgb(253, 253, 253);*/
+  }
+
+.tex1{
+      /*border: red 5px solid;*/
+      width: 500px;
+      height: 500px;
+      margin-top: -75px;
+  }
+.tex1:hover .invisivel{
+    display: block;
+  }
+
+.roda{
+    float: left;
+    font-size: 1.9rem;
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+
+ .pe{
+    margin-bottom: 150px;
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 10px;
+ } 
+
+.anc{
+    margin-left: 30px;
+}
+
+.buscar{
+    width: 170px;
+    height: 30px;
+}
+
+.Botbuscar{
+    width: 40px;
+    height: 30px;
+}

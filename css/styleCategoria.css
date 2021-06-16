@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+    color: white;
+    /*height: 1000px;*/
+}
+
+footer{
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    /*color: palevioletred;*/
+}
+
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topo{
+    /*opacity: 0.8;*/
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+ul li ul{
+    display: none;
+}
+
+.topo ul li:hover ul{
+    display: block;
+    margin-top: 18px;
+    position: absolute;
+}
+
+.menu{
+    display: flex;
+    z-index: 1;
+}
+
+.menu li{
+    position: relative;
+    float:left;
+    margin-left: 15px;
+}
+
+.menu li a{
+    transition: 1s;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    /*border: blue solid 1px;*/
+}
+
+.menu li a:hover{
+    transition: 1s;
+    box-shadow: 0 1px 5px 5px;
+    zoom: 100%;
+    border-radius: 50px;
+   /* transition: 1s;*/
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+}
+
+.menu li ul{
+    background-color: red;
+    position:absolute;
+    top:25px;
+    left:0;
+    }
+
+.roda{
+    float: left;
+    font-size: 1.9rem;
+    margin-left: 20px;
+    margin-top: 12px;
+    }
+
+.pe{
+    margin-bottom: 150px;
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 10px;
+     } 
+    
+    
+.anc{
+    margin-left: 30px;
+    }
+
+p{
+    color: white;
+    font-size: 1.5rem;
+    /*box-shadow: 10px 10px 20px rgb(192, 85, 85);*/
+}
+
+.link{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.inv{
+    /*margin-left: 30px;*/
+    color: rgb(255, 249, 255);
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+}
+
+.anc{
+    margin-left: 15px;
+}
+
+.vid{
+    float: right;
+    margin-left: 30%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+}
+
+.tabela1{
+    margin: 0px auto;
+    border-spacing: 50px;
+    margin: 0px auto;
+    width: 1500px;
+    margin-top: 30px;
+}
+
+.letra{
+    margin-left: 30px;
+    box-shadow: 10px 10px 15px rgb(192, 85, 85);
+    font-weight: bold;
+    text-align: center;
+}
+
+.textFilm{
+    padding: 90px;
+    min-width: 450px;
+    max-width: 900px;
+    font-size: 1.7rem;
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+
+}
+
+.borda{
+    padding: 20px;
+    box-shadow: 10px 10px 20px 10px rgb(192, 85, 85);
+    
+}
+
+.button{
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: red;
+}
+
+.fiodoset{
+    margin: 0px auto;
+    padding: 30px;
+    width: 300px;
+    font-size: 1.5em;
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px rgb(192, 85, 85);
+}
